@@ -1,3 +1,82 @@
+
+OKE_ATOMIC_MUMBAI_VUE_PROJECT
+
+
+contracts/
+
+AtomicMint.sol（NFT+SBT　”Atomic”Mint）
+
+TBAFactory.sol（ERC-6551　Account生成）
+
+SBT.sol（ERC-5192準拠）
+
+Hardhat　project　　estcode
+
+src/
+
+App.vue（全体UI）
+
+components/WalletButton.vue
+
+components/AtomicMint.vue
+
+components/OKECard.vue
+
+firebase/
+
+firebase.json
+
+functions/index.js（Google AI Studio←API）
+
+その他
+
+README.md（Japanese/English）
+
+.env.local.example / .env.secret.example
+
+package.json（依存関係）
+
+
+OKE_ATOMIC_MUMBAI_VUE_PROJECT/
+ ├─ contracts/
+ │   ├─ AtomicMint.sol
+ │   ├─ TBAFactory.sol
+ │   └─ SBT.sol
+ │   └─ hardhat.config.js
+ │   └─ test/
+ │       └─ atomicMint.test.js
+ ├─ src/
+ │   ├─ App.vue
+ │   ├─ main.js
+ │   └─ components/
+ │       ├─ WalletButton.vue
+ │       ├─ AtomicMint.vue
+ │       └─ OKECard.vue
+ ├─ firebase/
+ │   ├─ firebase.json
+ │   └─ functions/index.js
+ ├─ package.json
+ ├─ .gitignore
+ ├─ README.md
+ └─ .env.local.example
+
+
+
+
+
+
+
+contracts/（AtomicMint.sol, TBAFactory.sol, SBT.sol, Hardhat設定+テスト）
+
+src/（App.vue, main.js, WalletButton.vue, AtomicMint.vue, OKECard.vue）
+
+firebase/（firebase.json, functions/index.js）
+
+package.json, .gitignore, .env.local.example
+
+README.md（日英、セットアップ〜デプロイ手順のみ記載）
+
+
 1. contracts/
 
 AtomicMint.sol
