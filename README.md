@@ -37,6 +37,7 @@ README.md（Japanese/English）
 package.json（依存関係）
 
 
+
 OKE_ATOMIC_MUMBAI_VUE_PROJECT/
  ├─ contracts/
  │   ├─ AtomicMint.sol
